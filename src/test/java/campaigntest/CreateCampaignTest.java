@@ -48,7 +48,11 @@ import objectRepository.LoginPage;
 	  String msg=toastMsg.getText();
 	  homepage.getCloseToastMsg().click();
 	  Assert.assertTrue(msg.contains("Successfully Added"));
+
 	  System.out.println("Bye");
+
+	  System.out.println("Hi");
+
 	   
 	}
 	
